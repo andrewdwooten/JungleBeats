@@ -1,6 +1,6 @@
 require "minitest/autorun"
 require "minitest/pride"
-require_relative  'JungleBeat'
+require_relative  'JungleBeatsClasses'
 
 class NodeTest < MiniTest::Test
     def test_is_it_a_node
@@ -161,7 +161,6 @@ class LinkedListTest < MiniTest::Test
     end
 
     def test_can_we_find_items_two_through_four
-        skip
         list = LinkedList.new
         list.append("joy")
         list.append("anger")
@@ -172,7 +171,6 @@ class LinkedListTest < MiniTest::Test
     end
 
     def test_can_we_detect_item
-    skip
         list = LinkedList.new
         list.append("hip")
         list.append("hop")
@@ -218,6 +216,7 @@ class JungleBeatTest < MiniTest::Test
     end
 
     def test_can_we_append_to_Jungle_Beat
+    end
 
 end
 
