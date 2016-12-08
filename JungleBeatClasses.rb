@@ -125,6 +125,7 @@ class JungleBeat
 
     def append(appender)
         temp = jb.list
+    end
 
 end
 
