@@ -1,6 +1,6 @@
 require "minitest/autorun"
 require "minitest/pride"
-require_relative  'JungleBeatsClasses'
+require_relative  'JungleBeatClasses'
 
 class NodeTest < MiniTest::Test
     def test_is_it_a_node
